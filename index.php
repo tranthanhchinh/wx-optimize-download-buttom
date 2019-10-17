@@ -23,7 +23,7 @@ if(!class_exists('WX_Optimize_Download_Buttom')){
             add_filter( 'page_template', array($this, 'wx_odb_custom_page') );
             add_action( 'admin_enqueue_scripts', array( $this, 'wx_odb_enqueue_scripts' ) );
             add_action( 'wp_enqueue_scripts', array( $this, 'wx_odb_enqueue_scripts' ) );
-            add_shortcode('wx-url', array($this, 'wx_odb_shortcode'));
+            add_shortcode('wx-redirect', array($this, 'wx_odb_shortcode'));
             add_action('init', array($this, 'wx_odb_custom_rewrite_rule'));
             add_action( 'admin_init', array($this,'wx_odb_setting_field') );
 
@@ -122,3 +122,4 @@ if(!class_exists('WX_Optimize_Download_Buttom')){
     }
     new WX_Optimize_Download_Buttom();
 }
+
