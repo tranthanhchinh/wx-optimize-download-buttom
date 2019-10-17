@@ -45,7 +45,7 @@ if(!class_exists('WX_Optimize_Download_Buttom')){
                 <?php do_settings_sections( 'wx-odb-settings-group' ); ?>
             <h2><?php _e('WX Redirect Second Settings','wx-odb');?></h2>
                 <h4><?php _e('1. Display buttom fontend use shortcode ', 'wx-odb');?></h4>
-                <p class="wx-shortcode-view">[wx-redirect url="https://example.com"]</p>
+                <p class="wx-shortcode-view">[wx-redirect ref="https://example.com"]</p>
             <h4><?php _e('2.Second Number', 'wx-odb')?></h4>
             <input type="text" name="wx-redirect-second[second]" value="<?php  if(isset($this->wx_odb_data['second'])) echo $this->wx_odb_data['second'];?>" placeholder="0"><br/>
             <h4><?php _e('3.Insert code Ads', 'wx-odb')?></h4>
