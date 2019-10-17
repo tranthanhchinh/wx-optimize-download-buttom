@@ -2,6 +2,7 @@
 <head>
     <title>Download Redirect</title>
     <meta http-equiv="refresh" content="" id="reload" />
+    <meta name="robots" content="noindex" />
     <?php wp_head();?>
 </head>
 <body class="wx-page-download">
