@@ -109,7 +109,7 @@ if(!class_exists('WX_Optimize_Download_Buttom')){
             $attr = shortcode_atts( array(
                 'ref' => '#',
             ), $atts );
-            return '<div class="wx-view-download"><a href="'.get_home_url().'/wx-optimize-download/'. $this->encode($attr['ref'], 'wx-odp-url').'">Download <span class="dashicons dashicons-download"></span></a></div>';
+            return '<div class="wx-view-download"><a href="'.get_home_url().'/wx-optimize-download/'. $this->encode($attr['ref'], 'wx-odp-url').'" rel="nofollow">Download <span class="dashicons dashicons-download"></span></a></div>';
         }
         function wx_odb_custom_rewrite_rule() {
 
