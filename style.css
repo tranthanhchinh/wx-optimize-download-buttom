@@ -1,0 +1,50 @@
+.wx-page-download{
+    background: #fff;
+}
+.wx-box-page{
+    text-align: center;
+    margin-top: 30px;
+}
+.wx-box-second{
+    position: relative;
+}
+.wx-box-second img{
+    width: 200px;
+}
+#countdowntimer{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    color: #ccc;
+
+}
+.wx-note-second{
+    font-style: italic;
+    font-size: 13px;
+}
+.wx-view-download{
+    text-align: center;
+    margin: 10px 0;
+}
+.wx-view-download a{
+    background-color: #1faa00 ;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.wx-view-download a:hover{
+    background: #02aeef;
+    color: #fff;
+}
+.wx-view-download span{
+    line-height: 30px;
+}
+.wx-shortcode-view{
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+}
